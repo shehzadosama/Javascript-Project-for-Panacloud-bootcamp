@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SIGN-UP -- TODO APP</title>
+    <link rel="stylesheet" href="css/style.css">
+   
+
+
+</head>
+
+<body>
+    <!--<h1>WELCOME TO TODO APP</h1><br><br>-->
+    <div class="main-container-signup">
+           <div class="content">
+    <h2 style="text-align: center; ">SIGN UP FORM</h2>
+    <h2 id='notification'></h2>
+ <span  id= "error" ></span >
+      <input type="text" id="uName" placeholder="Enter Username Here..."; onfocus="changeBorder(this.id)"; onblur="reverseBorder(this.id)" >
+     <br/><br/> 
+  <input type="text" id="fName" placeholder="Enter Firstname Here..."; onfocus="changeBorder(this.id)"; onblur="reverseBorder(this.id)" >
+   <br/><br/>
+   <input type="text" id="lName" placeholder="Enter Lastname Here..."; onfocus="changeBorder(this.id)"; onblur="reverseBorder(this.id)" >
+    <br/><br/>
+     <input type="radio" name="gender" value="m" checked="checked" id="male"/> Male
+    <input type="radio" name="gender" value="f" id="female" /> Female 
+    <br/><br/>
+     <input type="email" id="email" placeholder="Enter Email Here..."; onfocus="changeBorder(this.id)"; onblur="reverseBorder(this.id)" >
+     <br/><br/>
+     City: &nbsp;
+     <select name="city" id="city" >
+<option value="khi">Karachi</option>
+<option value="lhr">Lahore</option>
+<option value="isb">Islamabad</option>
+<option value="fsd">Faislabad</option>
+</select>
+    <br/><br/>
+   <input type="text" id="number" placeholder="Enter Cell No Here..."; onfocus="changeBorder(this.id)"; onblur="reverseBorder(this.id)" >
+   <br/><br/>
+     <input type="password" id="pwd" placeholder="Enter Password Here..."; onfocus="changeBorder(this.id)"; onblur="reverseBorder(this.id)" ><input type="checkbox" id="showpassword" name="showpassword" value="itunes" onclick="showPwd()" /> Show Password
+    <br/><br/>
+     <input type="password" id="Cpwd" placeholder="Enter confirm password Here..."; onfocus="changeBorder(this.id)"; onblur="reverseBorder(this.id)" >
+    <br/><br/>
+    <input type="submit" id = "submit" value="SIGN UP" onclick="signUp()"; onmouseover="this.style.background= '#db418b'";  onmouseout="this.style.background= 'white'";>
+           </div>
+    </div>
+    <script src="js/sign-up.js">
+
+    </script>
+</body>
+
+</html>

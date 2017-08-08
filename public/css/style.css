@@ -1,0 +1,202 @@
+body{
+    background-image: url("../images/banner1.jpg");
+     background-repeat: no-repeat;
+       background-attachment: fixed;
+       /*background-position: center;*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       color: #ffffff;
+    /*font-size: 20px;*/
+}
+
+
+
+
+
+.main-container-todo{
+    width:900px;
+/*border: 2px;*/
+/*background-color: red;*/
+margin: 80px auto;
+background-color: rgba(4, 4, 4, 0.56);
+box-shadow: 0px 35px 44px -22px #1f181b;
+ padding: 60px 40px;
+}
+
+.main-container-signin{
+    width:400px;
+/*border: 2px;*/
+/*background-color: red;*/
+margin: 80px auto;
+ background-color: rgba(4, 4, 4, 0.56);
+ box-shadow: 0px 35px 44px -22px #1f181b;
+ padding: 60px 40px;
+}
+
+.main-container-signup{
+    width:400px;
+/*border: 2px;*/
+/*background-color: red;*/
+margin: 80px auto;
+ background-color: rgba(4, 4, 4, 0.56);
+ box-shadow: 0px 35px 44px -22px #1f181b;
+ padding: 60px 40px;
+}
+
+
+.content{
+      width:400px;
+    margin: 10px auto;
+}
+
+.content-todo{
+      width:700px;
+    margin: 10px auto;
+}
+
+input#uName,#pwd, #fName, #lName,#email,#number,#Cpwd, #inputField{
+    outline: none;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 15px 40px 15px 10px;
+    width: 87%;
+    border: none;
+    border-bottom: 1px solid #DCCBCF;
+    /*-webkit-appearance: none;*/
+    margin-bottom: 30px;
+    background: transparent;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#city{
+     outline: none;
+     margin: 0 auto;
+    border: none;
+    cursor: pointer;
+    padding: 5px 30px  5px  10px;
+}
+
+#error{
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+#submit{
+    background: #fff;
+    color: #000;
+    outline: none;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+    padding: 9px 38px;
+    font-size: 14px;
+    margin-top: 30px;
+     margin-bottom: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    /*-webkit-transition: 0.3s all;*/
+}
+
+a{
+        color: #df5799;
+    outline: none;
+    text-decoration: none;
+}
+#notification{
+     color: green;
+}
+img{
+ /*padding-left:100px;*/
+ /*float:right;*/
+/*cursor: pointer;*/
+}
+
+/*input.submit:hover {
+background-color: blue;}
+input.submit:active {
+background-color: chocolate;
+}*/
+/*
+input:focus {
+background-color: #ffffff;
+border: 1px solid #b1e1e4;}*/
+li.even {
+    /*width:*/
+/*list-style-image: url("images/star.png");*/
+/*background-color: #e22f74;*/
+ background-color: #7dd1cb;
+list-style-type: none;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 40px;
+color: #5a2572;
+border: 2px solid #416a6d;
+margin-bottom: 4px;
+border-radius: 10px;
+padding:5px;
+
+}
+li.odd {
+
+/*list-style-image: url("images/star.png");*/
+  background-color: #eadce1;
+list-style-type: none;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 40px;
+color: #5a2572;
+border: 2px solid #416a6d;
+margin-bottom: 4px;
+border-radius: 10px;
+padding:5px;
+
+}
+/*input#inputField{
+  border: 2px solid #b3b3bc;
+  border-radius: 5px;
+  padding: 8px ;
+  
+  font-size: 120%;
+
+}*/
+
+
+/*.submit {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+      background-image: url("images/plusbtn.png");
+     border-radius: 4px;
+    padding:5px ;
+    cursor: pointer;
+color: #444444;
+text-shadow: 0px 1px 1px #ffffff;
+border-bottom: 2px solid #b2b2b2;
+background-color: #b9e4e3;
+background: -webkit-gradient(linear, left top,
+left bottom, from(#beeae9), to(#a8cfce));
+background:
+-moz-linear-gradient(top, #beeae9, #a8cfce);
+background:
+-o-linear-gradient(top, #beeae9, #a8cfce);
+background:
+-ms-linear-gradient(top, #beeae9, #a8cfce);}
+.submit:hover {
+color: #333333;
+border: 1px solid #a4a4a4;
+border-top: 2px solid #b2b2b2;
+background-color: #a0dbc4;
+background: -webkit-gradient(linear, left top,
+left bottom, from(#a8cfce), to(#beeae9));
+background:
+-moz-linear-gradient(top, #a8cfce, #beeae9);
+background:
+-o-linear-gradient(top, #a8cfce, #beeae9);
+background:
+-ms-linear-gradient(top, #a8cfce, #beeae9);}*/
+
+
+/*#btn{
+     padding-left:0px;
+}
+*/
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TODO LIST APP</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class="main-container-todo">
+        <div class="content-todo">
+        <h1 id="welcome"></h1>
+                          <input id = "submit" type="submit" value="LOGOUT" onclick="logout()" onmouseover="this.style.background= '#db418b'";  onmouseout="this.style.background= 'white'";  >
+
+        <img src="images/todolist.png" alt="" height="250" width="250"><br>
+        <input type="text" id="inputField" onfocus="changeBorder(this.id)"; onblur="reverseBorder(this.id)"  placeholder="Enter your work..." />
+        <br>
+
+        <br>
+        <!--<input type="submit"  id="submit" value="Add To List" onclick="myFunction()"></input>-->
+        <!--<button class="submit" onclick="add()"> <img id="btn" src="images/plusbtn.png" height="30" width="30">ADD TO LIST</button>-->
+                   <input id = "submit" type="submit" value="ADD TO LIST" onclick="add()" onmouseover="this.style.background= '#db418b'";  onmouseout="this.style.background= 'white'";  >
+
+        <!--<input type="submit" id="submit" value="Remove All"  onclick="removeAll()"></input>-->
+                          <input id = "submit" type="submit" value="REMOVE ALL" onclick="removeAll()" onmouseover="this.style.background= '#db418b'";  onmouseout="this.style.background= 'white'";  >
+
+        <!--<button class="submit" onclick="removeAll()"> <img id="btn" src="images/Delete-Button-PNG-Image.png" height="30" width="30">REMOVE ALL</button>-->
+<!--<button id = 2></button>-->
+        <ul id="list">
+
+        </ul>
+    </div>
+    </div>
+    <script src="js/todo.js"></script>
+</body>
+
+</html>

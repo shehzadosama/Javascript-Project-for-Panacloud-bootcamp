@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SIGN-IN -- TODO APP</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--<h1>WELCOME TO TODO APP</h1>-->
+    <div class="main-container-signin">
+        <div class="content">
+            <h2 style="text-align: center; ">LOGIN FORM</h2>
+            <span  id= "error" ></span >
+            <input type="text" id="uName" size="30" placeholder="Enter Username Here..."onfocus="changeBorder(this.id)"; onblur="reverseBorder(this.id)" > &nbsp; &nbsp;&nbsp;
+           
+            <br/><br/>  <input type="password" id="pwd"  size="30"placeholder="Enter Password Here..." onfocus="changeBorder(this.id)"; onblur="reverseBorder(this.id)";  ><input type="checkbox" id="showpassword" name="showpassword"
+                 onclick="showPwd()" />Show Password
+           
+            <br/><br/>
+            <input id = "submit" type="submit" value="SIGN IN" onclick="signIn()" onmouseover="this.style.background= '#db418b'";  onmouseout="this.style.background= '#ffffff'";  >
+            <p style="text-align: center; "> NOT ALREADY A USER ?? <a href="sign-up.html" onmouseover="this.style.color='#ffffff'"; onmouseout="this.style.color='#db418b'">SIGN UP NOW</a> </p>
+        </div>
+    </div>
+    <script src="js/sign-in.js"></script>
+
+</body>
+
+</html>
